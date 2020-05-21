@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "wishlist-mgt-angular"
+    }
+  },
+  "defaultProject": "wishlist-mgt-angular",
+  "cli": {
+    "analytics": "82f2954c-5ce8-4496-ac97-d7870831952e"
+  }
 }

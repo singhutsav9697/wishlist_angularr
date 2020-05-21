@@ -1,0 +1,19 @@
+<br>
+<h1>WISHLIST LIST</h1>
+<br>
+<table border="1" class="table">
+    <thead>
+    <tr>
+        <th scope="col">PRODUCT ID</th>
+        <th scope="col">PROUDUCT NAME</th>
+    </tr>
+</thead>
+    <tr *ngFor="let product of wishlist">
+        <td>{{product.productId}}</td>
+        <td>{{product.productName}}</td>
+    </tr>
+    
+
+</table>
+<br>
+<a href=""  class="btn btn-primary" role="button" routerLink="../wishlist-mgt">Previous</a>
